@@ -10,7 +10,7 @@
 
     <properties>
         <jee.version>7.0</jee.version>
-		<h2.version>1.4.192</h2.version>
+		<h2.version>1.4.196</h2.version>
 		<hibernate.version>4.3.8.Final</hibernate.version>
     </properties>
 
