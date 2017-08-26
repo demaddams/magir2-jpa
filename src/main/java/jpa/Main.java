@@ -136,8 +136,8 @@ public class Main {
             Root<Person> personRoot = query.from(Person.class);
             
             query.where(builder.and(
-               builder.equal(personRoot.get("firstname"), "Homer"),
-               builder.equal(personRoot.get("lastname"), "Simpson")     
+               builder.equal(personRoot.get("firstName"), "Homer"),
+               builder.equal(personRoot.get("lastName"), "Simpson")     
             ));
             
             List<Person> resultList = entityManager.createQuery(query).getResultList();
